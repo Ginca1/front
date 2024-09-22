@@ -20,7 +20,7 @@
 .coffe-box{
     width:500px;
     height:400px;
-   
+    padding: 50px
     
 }
 .time{
@@ -54,9 +54,7 @@
   width:250px;
   height:400px;
   
-  position: absolute;
-  top: 234%;
-  left: 60%;
+ 
 }
 .coffe-box4{
   width:350px;
@@ -89,21 +87,19 @@
 .star{
   width:350px;
   height:350px;
+  margin-top: 7%;
 }
-.cup{
-  width:450px;
-  height:500px;
-  
-  position: absolute;
+.cup {
+  width: 450px;
+  height: 500px;
+  /* position: absolute; */
   top: 100%;
   left: 60%;
 }
-.cup2{
-  width:450px;
-  height:500px;
-
-  margin-right: 150%;
-  margin-top:-20%;
+.cup2 {
+  width: 450px;
+  height: 500px;
+ 
 }
 .place{
   
@@ -132,19 +128,16 @@
 .cup3{
   width:450px;
   height:500px;
-  
-  position: absolute;
-  top: 300%;
-  left: 50%;
+ 
+  margin-left: 9%;
 }
-.img-coffe{
-  position: absolute;
-  top: 28px;
-  left: 600px;
+.img-coffe {
+  position: relative;
+  top: 192px;
+  /* left: 600px; */
   width: 900px;
   height: 670px;
-  overflow: hidden;
-
+  /* overflow: hidden; */
 }
 .img-1{
   position: absolute;
@@ -559,24 +552,27 @@ cursor:auto;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    
+    width: 100%;
   }
-  .row60{
+
+  .row60 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 60%;
-  }
-  .row46{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right:46%;
-  }
+    /* margin-right: 60%; */
+    width: 100%;
+}
+.row46 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* margin-right: 46%; */
+  width: 100%;
+}
   .row-l{
     display: flex;
     flex-direction: row;
@@ -591,8 +587,17 @@ cursor:auto;
     justify-content: right;
     flex-wrap: wrap;
     align-items: center;
-    
+    width: 100%;
   }
+  .row-r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: -20%;
+}
   
  
   
@@ -769,11 +774,14 @@ button {
 
 }
 .img-coffe {
-  top: 149px;
-  left: 107px;
-  width: 214px;
-  height: 229px;
+  position: relative;
+  top: 81px;
+  /* left: 600px; */
+  width: 300px;
+  height: 270px;
+  /* overflow: hidden; */
 }
+
 .sim {
   font-weight: 100;
   font-size: 54px;
@@ -783,13 +791,11 @@ button {
   width: 240px;
   height: 200px;
   
-  position: absolute;
-  top: 103%;
-  left: 11%;
+
 }
 .star {
-  width: 180px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
 }
 .cup2 {
   width: 300px;
@@ -801,34 +807,25 @@ button {
 .coffe-box3 {
   width: 188px;
   height: 213px;
- 
-  position: absolute;
+  /* position: absolute; */
   top: 204%;
   left: 4%;
 }
-.row46 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-right: 0%;
-  margin-top: 152%;
-}
+
 
 .coffe-box4 {
   width: 200px;
   height: 260px;
-  
   margin-right: 20%;
+  margin-top: 31%;
 }
 .cup3 {
   width: 300px;
   height: 196px;
-  
-  position: absolute;
+  /* position: absolute; */
   top: 242%;
   left: 0%;
+  margin-top: 42%;
 }
 .poster {
   width: 310px;
